@@ -1,0 +1,254 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem; 
+    font-family: 'Rubik Dirt', cursive;   
+}
+
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-titulo span{
+    color: green;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero{    
+    background-color: SlateGrey;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-imagen-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(13,110,253);
+    margin: 20px;       
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+.hero-inferior-imagen{
+    filter: blur(2px);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sobre-mi{
+    height: 400px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+.servicios{
+    padding: 40px 40px 40px 40px;
+}
+
+.servicios .columna{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.servicios .columna:hover{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.servicios i{
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.servicios-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge{
+    margin: 5px;
+}
+
+.certificaciones{
+    padding: 40px 40px 40px 40px;
+}
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo{
+    margin-top: -3rem;
+    background-color: rgb(13,110,253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;    
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+
+.contacto button:hover i{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    min-height: 500px;
+    margin-top: -3rem;
+}
+
+.pie{
+    background-color: black;
+}
+
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 50px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes a:hover{
+    background-color: white;
+    border: 2px solid rgb(13,110,253);
+}
+
+.iconos-redes a:hover i{
+    color: black;
+}
+
+.derecho-de-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
+
+/*responsive*/
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+}
