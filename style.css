@@ -75,13 +75,14 @@ h1{
 }
 
 .sobre-mi{
-    height: 400px;
-    padding: 10px;
+    height: 600px;
+    padding: 10px;    
 }
 
 .sobre-mi .contenedor{
-    max-width: 600px;
+    max-width: 600px;    
     text-align: center;
+    padding: 20px;    
 }
 
 .servicios{
